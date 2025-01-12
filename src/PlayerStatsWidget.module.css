@@ -1,0 +1,35 @@
+.main {
+    position: relative;
+    width: 55%; /* Занимаем всю ширину */
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.08em solid rgba(255, 255, 255, 0.527);
+    border-radius: 0.5em;
+    //background-color: #000;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 100%; /* 100% от базового */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.masterImage {
+    width: 1.2em;
+    height: auto;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+}
+
+.experience {
+   font-size: 1.1em;
+    color: white;
+    font-weight:normal;
+    text-shadow: 0.125em 0.125em 0.25em #000000;
+}
