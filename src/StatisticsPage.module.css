@@ -1,0 +1,79 @@
+.statisticsPage {
+   
+    color: #fff;
+    padding: 10px;
+}
+
+.customTooltip {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.customTooltip .label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.customTooltip .intro {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.tankClassIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -70px;
+    height: 180px;
+}
+
+.tankInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем содержимое по горизонтали */
+    width: 100%;
+    padding: 10px; /* Отступы внутри контейнера */
+    border-radius: 8px; /* Скругление углов */
+    margin-bottom: 20px; /* Отступ снизу */
+  }
+  
+  .tankInfoHeader {
+    display: flex;
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    width: 100%; /* Занимает всю ширину контейнера */
+    position: relative; /* Для позиционирования h1 по центру */
+  }
+  
+  .tankInfo h1 {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+    font-size: 24px; /* Размер шрифта */
+    color: #ffffff; /* Цвет текста */
+    margin: 0; /* Убираем отступы */
+    font-weight: bold; /* Жирный шрифт */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 50%; /* Сдвигаем в центр */
+    transform: translateX(-50%); /* Корректируем позицию */
+  }
+  
+  .markValue {
+    font-size: 25px; /* Размер шрифта */
+    color: #666; /* Цвет текста */
+    margin-left: auto; /* Выравниваем по правому краю */
+    font-weight: bolder;
+  }
+b {
+    color: #09ff00;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

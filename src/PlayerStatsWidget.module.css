@@ -1,13 +1,13 @@
 .main {
     position: relative;
     width: 55%; /* Занимаем всю ширину */
-    height: 1em;
+    height: 2em;
     display: flex;
+    flex-direction: column; /* Изменено на column */
     align-items: center;
     justify-content: center;
     border: 0.08em solid rgba(255, 255, 255, 0.527);
     border-radius: 0.5em;
-    //background-color: #000;
     padding: 0.5em;
     margin: 1em;
     font-size: 100%; /* 100% от базового */
@@ -27,9 +27,23 @@
     margin-top: 0.2em;
 }
 
+.masterImage.img {
+    margin-top: 2.2em;
+}
+
 .experience {
    font-size: 1.1em;
     color: white;
     font-weight:normal;
     text-shadow: 0.125em 0.125em 0.25em #000000;
 }
+
+
+.marksExperience {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  margin-top: 0.2em; /* Добавлено отступ сверху */
+  text-shadow: 0.125em 0.125em 0.25em #000000;
+}
+

@@ -1,6 +1,8 @@
 {
  "dependencies": {
   "@clickhouse/client": "^1.10.0",
+  "@tensorflow/tfjs": "^4.22.0",
+  "brain.js": "^2.0.0-beta.24",
   "cheerio": "^1.0.0",
   "cors": "^2.8.5",
   "express": "^4.18.2"
